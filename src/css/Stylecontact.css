@@ -1,0 +1,38 @@
+h1 {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.display-4 {
+    padding: 50px;
+    color: #d5d5d5;
+}
+span {
+    background-color: #4285f4;
+    color: black;
+    padding-top: 15px;
+    opacity: 0.85;
+}
+
+
+
+.social {
+    background-color: #4285f4;
+    padding-top: 50px;
+}
+
+.soc a {
+    font-size: 36px;
+    padding: 2rem;
+}
+
+p {
+    font-weight: bolder;
+}
+
+footer {
+    padding-top: 11rem;
+    background-color: #4285f4;
+    color: black;
+}
+
