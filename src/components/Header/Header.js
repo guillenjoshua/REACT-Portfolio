@@ -1,31 +1,32 @@
 import React from 'react'
-import Tech from '../../img/tech2.jpg'
-import Contact from '../Contact/Contact'
+// import Tech from '../../img/tech2.jpg'
+// import Contact from '../Contact/Contact'
+// import Portfolio from '../Portfolio/Portfolio'
 
 function Header () {
 
  return (
      <div>
          
-         <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
-<div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src={Tech} alt="Texas Tech" /></a>
+         <nav className="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
+<div className="container-fluid">
+    <a className="navbar-brand" href="index.html"><img src="/img/tech2.jpg" alt="Texas Tech" /></a>
 
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span className="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href=''>Home</a> 
+    <div className="collapse navbar-collapse" id="navbarResponsive">
+        <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+                <a className="nav-link" href='/'>Home</a> 
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a> 
+            <li className="nav-item">
+                <a className="nav-link" href='/portfolio'>Portfolio</a> 
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href={Contact}>Connect</a> 
+            <li className="nav-item">
+                <a className="nav-link" href='/contact'>Connect</a> 
             </li>
         </ul>
     </div>

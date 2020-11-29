@@ -1,20 +1,19 @@
 import React from 'react'
-import "../../css/Frontpage.css"
-import Self from '../../img/self.jpg'
-
+ 
+ 
 
 function FrontPage () {
 
  return (
      <div>
          
-    {/* <div class="view" style={"background-image: url('img/skyline2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; padding-bottom: 180px;"}></div> */}
+    <div className="view background" >
         
         <div className="container-fluid padding">
         <div className="row padding">
 
             <div className="col-sm-12 col-lg-5">
-                <img src={Self} alt="Joshua Guillen" className="img-fluid"/>
+                <img src="/img/self.jpg" alt="Joshua Guillen" className="img-fluid"/>
             </div>
             
             <div className="col-md-12 col-lg-7">
@@ -25,7 +24,7 @@ function FrontPage () {
         
         </div>
         </div>
-    
+    </div>
 
      </div>
  )
