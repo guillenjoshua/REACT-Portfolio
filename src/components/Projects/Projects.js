@@ -1,7 +1,7 @@
 import React from 'react'
-import PortfolioCards from '../Cards/PortfolioCards'
+import ProjectsCards from '../Cards/ProjectsCards'
 
-function Portfolio () {
+function Projects () {
 
  return (
      <div className="background">
@@ -9,7 +9,7 @@ function Portfolio () {
         <div class="portfolio">
         <div class="container-fluid padding">
         <div class="row padding">
-            <PortfolioCards />
+            <ProjectsCards />
         </div>
         </div>
         </div>
@@ -20,4 +20,4 @@ function Portfolio () {
 
 }
 
-export default Portfolio
+export default Projects
