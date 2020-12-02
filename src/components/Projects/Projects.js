@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectsCards from '../Cards/ProjectsCards'
+import '../../css/Frontpage.css'
 
 function Projects () {
 

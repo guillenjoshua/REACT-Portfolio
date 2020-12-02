@@ -1,7 +1,6 @@
 import React from 'react'
-// import Tech from '../../img/tech2.jpg'
-// import Contact from '../Contact/Contact'
-// import Portfolio from '../Portfolio/Portfolio'
+import Tech from '../../img/tech2.jpg'
+
 
 function Header () {
 
@@ -10,7 +9,7 @@ function Header () {
          
          <nav className="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
 <div className="container-fluid">
-    <a className="navbar-brand" href="index.html"><img src="/img/tech2.jpg" alt="Texas Tech" /></a>
+    <a className="navbar-brand" href='/'><img src={Tech} alt="Texas Tech" /></a>
 
 
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">

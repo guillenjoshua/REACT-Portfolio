@@ -1,5 +1,6 @@
 import React from 'react'
 import PortfolioCards from '../Cards/PortfolioCards'
+import '../../css/Frontpage.css'
 
 function Portfolio () {
 

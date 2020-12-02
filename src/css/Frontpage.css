@@ -21,7 +21,7 @@ span {
     margin-top: 125px;
     margin-left: 50px;
     border:2px solid #fff;
-    background: url() no-repeat;
+    background: url(../img/skyline2.jpg) no-repeat;
     -moz-box-shadow: 10px 10px 5px #ccc;
     -webkit-box-shadow: 10px 10px 5px #ccc;
     box-shadow: 10px 10px 5px #ccc;
@@ -38,7 +38,7 @@ footer {
     }
 
 .background {
-    background-image: url('/img/skyline2.jpg'); 
+    background-image: url(../img/skyline2.jpg); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center; 

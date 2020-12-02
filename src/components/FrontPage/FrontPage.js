@@ -1,5 +1,6 @@
 import React from 'react'
- 
+import Self from '../../img/self.jpg'
+import '../../css/Frontpage.css'
  
 
 function FrontPage () {
@@ -13,7 +14,7 @@ function FrontPage () {
         <div className="row padding">
 
             <div className="col-sm-12 col-lg-5">
-                <img src="/img/self.jpg" alt="Joshua Guillen" className="img-fluid"/>
+                <img src={Self} alt="Joshua Guillen" className="img-fluid"/>
             </div>
             
             <div className="col-md-12 col-lg-7">

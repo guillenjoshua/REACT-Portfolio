@@ -1,4 +1,6 @@
 import React from 'react'
+import ISS from '../../img/ISS.jpg'
+import Scheduler from '../../img/WorkScheduler.JPG'
 
 
 function ProjectsCards () {
@@ -8,7 +10,7 @@ function ProjectsCards () {
         <div className="row">
             <div class="col-md-6 col-lg-6">
             <div className="card cardprojects">
-                <img className="card-img-top" src="/img/ISS.jpg" alt="Houston Skyline" />
+                <img className="card-img-top" src={ISS} alt="Houston Skyline" />
                 <div className="card-body">
                     <h4 className="card-title">Space Enthusiast</h4>
                     <a href="https://guillenjoshua.github.io/Space-Enthusiast/" className="btn btn-outline-secondary">Deployed</a>
@@ -20,7 +22,7 @@ function ProjectsCards () {
 
             <div className="col-md-6 col-lg-6">
                 <div className="card cardprojects">
-                    <img className="card-img-top  " src="/img/WorkScheduler.JPG" alt="Milos Island" />
+                    <img className="card-img-top  " src={Scheduler} alt="Milos Island" />
                     <div className="card-body  hops">
                         <h4 className="card-title">Local-Hops</h4>
                         <a href="https://local-hops.herokuapp.com/" className="btn btn-outline-secondary">Deployed</a>
